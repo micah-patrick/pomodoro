@@ -133,7 +133,7 @@ function Pomodoro() {
         stopHandler={stopHandler}
       />
       {displaySession}
-    </div>
+    </div> 
   );
 }
 
