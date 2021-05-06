@@ -12,18 +12,18 @@ function Pomodoro() {
   const initialStates = {
     //-----Testing Initial Values-----
     //-----Test Values-----
-    focusDuration: 5,
-    breakDuration: 8,
-    remainingSeconds: 5,
+    // focusDuration: 5,
+    // breakDuration: 8,
+    // remainingSeconds: 5,
     //-----Real Values-----
-    // focusDuration: 25 * 60,
-    // breakDuration: 5 * 60,
-    // remainingSeconds: 25 * 60,
+    focusDuration: 25 * 60,
+    breakDuration: 5 * 60,
+    remainingSeconds: 25 * 60,
     //-----/Testing Initial Values-----
     isSessionFocus: true,
     isTimerRunning: false,
     isTimerStarted: false,
-  };
+  }; 
 
   // .............
   // State Declarations
