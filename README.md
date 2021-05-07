@@ -27,12 +27,16 @@ Some features that I would like to impliment in the future
 * Fix some minor responsiveness issues
 
 #
-## SCREEN SHOTS
+## SCREENSHOTS
 
 ### Home Page:
 By default the focus duration is 25 minutes and the break duration is 5 minutes.
 ![Home Page](./src/readme/scrn-sht-home.png)
 
 ### Running Timer:
-By default the focus duration is 25 minutes and the break duration is 5 minutes.
-![Home Page](./src/readme/scrn-sht-running.png)
+Once the pomodoro has started running, the duration buttons are grayed out and pause/ stop buttons become available.
+![Running Timer](./src/readme/scrn-sht-running.png)
+
+### On Break:
+When the focus session ends, the on break session runs.
+![On Break](./src/readme/scrn-sht-break.png)
